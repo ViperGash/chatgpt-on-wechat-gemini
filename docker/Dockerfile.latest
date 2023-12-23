@@ -17,6 +17,7 @@ RUN apt-get update \
     && cp config-template.json config.json \
     && /usr/local/bin/python -m pip install --no-cache --upgrade pip \
     && pip install --no-cache -r requirements.txt \
+    && pip install google-generativeai \
     && pip install --no-cache -r requirements-optional.txt \
     && pip install azure-cognitiveservices-speech
 
