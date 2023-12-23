@@ -1,4 +1,4 @@
-openai==0.27.8
+google-generativeai==0.3.2
 HTMLParser>=0.0.2
 PyQRCode>=1.2.1
 qrcode>=7.4.2
@@ -7,4 +7,4 @@ chardet>=5.1.0
 Pillow
 pre-commit
 web.py
-google-generativeai
+
