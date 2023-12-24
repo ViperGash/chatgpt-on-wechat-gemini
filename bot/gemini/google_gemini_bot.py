@@ -7,7 +7,7 @@ Google gemini bot
 # encoding:utf-8
 
 from bot.bot import Bot
-import google.generativeai as genai
+import external_libs.generativeai as genai
 from bot.session_manager import SessionManager
 from bridge.context import ContextType, Context
 from bridge.reply import Reply, ReplyType
